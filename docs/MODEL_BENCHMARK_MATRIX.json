@@ -6,7 +6,7 @@
         "features_count": 37,
         "accuracy": 100.0,
         "f1_score": 100.0,
-        "latency_ms": 2.32,
+        "latency_ms": 2.14,
         "size_kb": 872.6,
         "decision": "INTEGRATE"
     },
@@ -17,7 +17,7 @@
         "features_count": 37,
         "accuracy": 0.0,
         "f1_score": 0.0,
-        "latency_ms": 1.53,
+        "latency_ms": 1.76,
         "size_kb": 1471.9,
         "decision": "RETRAIN"
     },
@@ -28,7 +28,7 @@
         "features_count": 37,
         "accuracy": 0.0,
         "f1_score": 0.0,
-        "latency_ms": 1.6,
+        "latency_ms": 1.81,
         "size_kb": 1898.0,
         "decision": "RETRAIN"
     },
@@ -39,7 +39,7 @@
         "features_count": 37,
         "accuracy": 100.0,
         "f1_score": 100.0,
-        "latency_ms": 1.5,
+        "latency_ms": 1.97,
         "size_kb": 1003.5,
         "decision": "INTEGRATE"
     },
@@ -50,7 +50,7 @@
         "features_count": 11,
         "accuracy": "98.5%",
         "f1_score": "98.2%",
-        "latency_ms": 9.68,
+        "latency_ms": 18.56,
         "size_kb": 884.0,
         "decision": "INTEGRATE"
     },
@@ -61,7 +61,7 @@
         "features_count": 11,
         "accuracy": "98.5%",
         "f1_score": "98.2%",
-        "latency_ms": 9.44,
+        "latency_ms": 16.2,
         "size_kb": 687.5,
         "decision": "INTEGRATE"
     },
@@ -72,7 +72,7 @@
         "features_count": 11,
         "accuracy": "98.5%",
         "f1_score": "98.2%",
-        "latency_ms": 9.29,
+        "latency_ms": 21.01,
         "size_kb": 621.7,
         "decision": "INTEGRATE"
     },
@@ -83,7 +83,7 @@
         "features_count": 11,
         "accuracy": "98.5%",
         "f1_score": "98.2%",
-        "latency_ms": 8.58,
+        "latency_ms": 16.98,
         "size_kb": 912.6,
         "decision": "INTEGRATE"
     },
@@ -94,7 +94,7 @@
         "features_count": 36,
         "accuracy": "RMSE: 28.4 mA / R\u00b2: 0.94",
         "f1_score": "N/A (Regressor)",
-        "latency_ms": 30.08,
+        "latency_ms": 35.95,
         "size_kb": 19680.1,
         "decision": "INTEGRATE"
     },
@@ -105,7 +105,7 @@
         "features_count": 36,
         "accuracy": "RMSE: 28.4 mA / R\u00b2: 0.94",
         "f1_score": "N/A (Regressor)",
-        "latency_ms": 32.31,
+        "latency_ms": 40.23,
         "size_kb": 19671.3,
         "decision": "INTEGRATE"
     }

@@ -1,65 +1,65 @@
 {
-    "total_rows": 3495,
-    "unique_timestamps": 3003,
-    "duplicate_timestamps": 492,
+    "total_rows": 8863,
+    "unique_timestamps": 8344,
+    "duplicate_timestamps": 519,
     "time_range": [
         "2026-08-27 00:00:19",
-        "2026-09-16 08:08:01"
+        "2026-10-13 22:56:04"
     ],
     "numeric_stats": {
         "hospital_current": {
             "min": -0.6,
             "max": 1300.0,
-            "mean": 161.3098712446352,
+            "mean": 198.19691977885591,
             "negatives": 24,
             "nans": 0
         },
         "street_current": {
             "min": -0.6,
             "max": 800.0,
-            "mean": 72.12134477825464,
+            "mean": 167.39373801195984,
             "negatives": 8,
             "nans": 0
         },
         "house_current": {
             "min": -0.5,
             "max": 1200.0,
-            "mean": 123.48789699570816,
+            "mean": 154.26795667381248,
             "negatives": 1,
             "nans": 0
         },
         "industry_current": {
             "min": 0.0,
             "max": 1500.0,
-            "mean": 93.54712446351931,
+            "mean": 79.99974049418933,
             "negatives": 0,
             "nans": 0
         },
         "critical_current": {
             "min": 0.0,
             "max": 609.8,
-            "mean": 287.48669527896993,
+            "mean": 295.9017714092294,
             "negatives": 0,
             "nans": 0
         },
         "total_current": {
             "min": -0.5,
             "max": 3288.0,
-            "mean": 737.9529330758226,
+            "mean": 895.7597203655647,
             "negatives": 1,
             "nans": 0
         },
         "total_power": {
             "min": -5.992,
             "max": 40128.979999999996,
-            "mean": 9181.445466895564,
+            "mean": 10993.39407997292,
             "negatives": 1,
             "nans": 0
         }
     },
     "mode_distribution": {
-        "SINGLE SMPS": 2482,
-        "DUAL SMPS": 1013
+        "SINGLE SMPS": 6301,
+        "DUAL SMPS": 2562
     },
-    "regularized_row_count": 3003
+    "regularized_row_count": 8344
 }
