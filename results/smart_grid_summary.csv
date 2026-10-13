@@ -1,0 +1,26 @@
+Metric,Value,Unit
+Session Start Time,2026-08-27 00:00:19,Timestamp
+Session End Time,2026-09-25 12:22:16,Timestamp
+Total Telemetry Samples,7249,Samples
+Total Session Duration,345.6,Minutes
+Hospital Energy Consumed,0.012487,kWh
+Street Energy Consumed,0.007050,kWh
+House Energy Consumed,0.008912,kWh
+Industry Energy Consumed,0.006801,kWh
+Critical Energy Consumed,0.019948,kWh
+Total Grid Energy Consumed,0.055198,kWh
+Total Electricity Cost,0.4416,INR (Rs)
+Peak Grid Current,3288.0,mA
+Mean Grid Current,839.4,mA
+Peak Power Draw,40.13,Watts
+Grid Load Factor,25.5,%
+Peak Demand Timestamp,2026-08-27 00:03:36,Timestamp
+System Average Interruption Frequency (SAIFI),47.0,Events/Customer
+System Average Interruption Duration (SAIDI),117.5,Minutes
+Customer Average Interruption Duration (CAIDI),2.5,Minutes
+Autonomous Self-Healing Rate,64.8,%
+Energy Curtailed by Shedding,0.04262,kWh
+Total Load Shed Events,148,Count
+Total Overcurrent Trips,40,Count
+Total Stuck Relays Detected,153,Count
+Total Restorations,102,Count

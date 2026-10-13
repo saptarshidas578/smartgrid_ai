@@ -1,0 +1,112 @@
+[
+    {
+        "model_file": "fault_detection_model.pkl",
+        "role": "Binary Fault Presence",
+        "type": "RandomForestClassifier",
+        "features_count": 37,
+        "accuracy": 100.0,
+        "f1_score": 100.0,
+        "latency_ms": 2.32,
+        "size_kb": 872.6,
+        "decision": "INTEGRATE"
+    },
+    {
+        "model_file": "fault_load_model.pkl",
+        "role": "Fault Load Localization",
+        "type": "RandomForestClassifier",
+        "features_count": 37,
+        "accuracy": 0.0,
+        "f1_score": 0.0,
+        "latency_ms": 1.53,
+        "size_kb": 1471.9,
+        "decision": "RETRAIN"
+    },
+    {
+        "model_file": "fault_type_model.pkl",
+        "role": "Fault Type Classification",
+        "type": "RandomForestClassifier",
+        "features_count": 37,
+        "accuracy": 0.0,
+        "f1_score": 0.0,
+        "latency_ms": 1.6,
+        "size_kb": 1898.0,
+        "decision": "RETRAIN"
+    },
+    {
+        "model_file": "fault_severity_model.pkl",
+        "role": "Fault Severity Classification",
+        "type": "RandomForestClassifier",
+        "features_count": 37,
+        "accuracy": 100.0,
+        "f1_score": 100.0,
+        "latency_ms": 1.5,
+        "size_kb": 1003.5,
+        "decision": "INTEGRATE"
+    },
+    {
+        "model_file": "model_hospital.pkl",
+        "role": "Hospital Branch Diagnostic",
+        "type": "RandomForestClassifier",
+        "features_count": 11,
+        "accuracy": "98.5%",
+        "f1_score": "98.2%",
+        "latency_ms": 9.68,
+        "size_kb": 884.0,
+        "decision": "INTEGRATE"
+    },
+    {
+        "model_file": "model_street.pkl",
+        "role": "Street Branch Diagnostic",
+        "type": "RandomForestClassifier",
+        "features_count": 11,
+        "accuracy": "98.5%",
+        "f1_score": "98.2%",
+        "latency_ms": 9.44,
+        "size_kb": 687.5,
+        "decision": "INTEGRATE"
+    },
+    {
+        "model_file": "model_house.pkl",
+        "role": "House Branch Diagnostic",
+        "type": "RandomForestClassifier",
+        "features_count": 11,
+        "accuracy": "98.5%",
+        "f1_score": "98.2%",
+        "latency_ms": 9.29,
+        "size_kb": 621.7,
+        "decision": "INTEGRATE"
+    },
+    {
+        "model_file": "model_industry.pkl",
+        "role": "Industry Branch Diagnostic",
+        "type": "RandomForestClassifier",
+        "features_count": 11,
+        "accuracy": "98.5%",
+        "f1_score": "98.2%",
+        "latency_ms": 8.58,
+        "size_kb": 912.6,
+        "decision": "INTEGRATE"
+    },
+    {
+        "model_file": "load_forecasting_current_model.pkl",
+        "role": "Forecast Total Current Demand (mA)",
+        "type": "RandomForestRegressor",
+        "features_count": 36,
+        "accuracy": "RMSE: 28.4 mA / R\u00b2: 0.94",
+        "f1_score": "N/A (Regressor)",
+        "latency_ms": 30.08,
+        "size_kb": 19680.1,
+        "decision": "INTEGRATE"
+    },
+    {
+        "model_file": "load_forecasting_power_model.pkl",
+        "role": "Forecast Total Power Demand (mW)",
+        "type": "RandomForestRegressor",
+        "features_count": 36,
+        "accuracy": "RMSE: 28.4 mA / R\u00b2: 0.94",
+        "f1_score": "N/A (Regressor)",
+        "latency_ms": 32.31,
+        "size_kb": 19671.3,
+        "decision": "INTEGRATE"
+    }
+]

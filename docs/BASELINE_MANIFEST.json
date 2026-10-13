@@ -1,0 +1,190 @@
+{
+    "project_name": "Smart Grid Autonomous Controller",
+    "baseline_timestamp": "20260916_111859",
+    "environment": {
+        "python_version": "3.14.3",
+        "os": "Windows-11-10.0.22631-SP0",
+        "scikit_learn_version": "1.9.0",
+        "paho_mqtt_version": "2.1.0",
+        "pandas_version": "3.0.3",
+        "numpy_version": "2.5.1",
+        "fastapi_version": "0.139.2",
+        "uvicorn_version": "0.51.0"
+    },
+    "database": {
+        "file": "live_smartgrid.db",
+        "telemetry_logs_count": 3495,
+        "distinct_timestamps": 3003,
+        "actuation_events_count": 276
+    },
+    "inventory": [
+        {
+            "name": "smart_grid_ai.py",
+            "category": "backend",
+            "size_bytes": 46835,
+            "sha256": "66913f83a1cd068b73a13314270d558c912154aea46d38f9f7c5182a3515b4ea"
+        },
+        {
+            "name": "grid_dashboard.py",
+            "category": "dashboard",
+            "size_bytes": 111638,
+            "sha256": "4d03d5420a25059b3321aa49e251b424a9b12bc445f694e179b324a3f18d0832"
+        },
+        {
+            "name": "grid_alerts.py",
+            "category": "telegram",
+            "size_bytes": 21847,
+            "sha256": "d0ae0d6d88eb7bca99fef6f5c92edc7a2297b78ecb0bc536e7e85d1b4eaefa97"
+        },
+        {
+            "name": "grid_analytics.py",
+            "category": "analytics",
+            "size_bytes": 23696,
+            "sha256": "7fcf3ee7e2aabf68069a5df951f691bc0f8f4669423fed4a581e54e9890779cf"
+        },
+        {
+            "name": "run_smart_grid_suite.py",
+            "category": "backend",
+            "size_bytes": 6796,
+            "sha256": "1a9692071b57f0f359afd7482483332a6733af5941d18e12a619790bff5804f8"
+        },
+        {
+            "name": "alert_config.json",
+            "category": "configuration",
+            "size_bytes": 237,
+            "sha256": "63795502356869a1bdfaf8fe31661e3b3e011e51db8e099478d3d094f8dc6580"
+        },
+        {
+            "name": "live_smartgrid.db",
+            "category": "database",
+            "size_bytes": 737280,
+            "sha256": "44fee4c386ca3a35561d0986e34f278170384e8cb118150f14907d29d01f65ce"
+        },
+        {
+            "name": "cloudflared.exe",
+            "category": "backend",
+            "size_bytes": 54976432,
+            "sha256": "2837888cc0f5d58f15b6dc478376de90b4d3ba5241c7947455d1e0a0df429712"
+        },
+        {
+            "name": "esp_grid_telemetry.xlsx",
+            "category": "database",
+            "size_bytes": 424519,
+            "sha256": "80a9c645b7622a97307547102cd8d98301f09c703dd5e18dd5f444ab82370b1e"
+        },
+        {
+            "name": "fault_grid_dataset.csv",
+            "category": "database",
+            "size_bytes": 440747,
+            "sha256": "2df36401273b35f2c607a316cceacbf04a225b726fed061ba5f94ddd6ffb2dd8"
+        },
+        {
+            "name": "fault_grid_dataset_labeled.csv",
+            "category": "database",
+            "size_bytes": 576702,
+            "sha256": "e46e26d1fa0fd55394c59688aa331413aa6342f2d81688e841b133fd2b76a9de"
+        },
+        {
+            "name": "master_grid_dataset.csv",
+            "category": "database",
+            "size_bytes": 1067669,
+            "sha256": "a7c991299fc622407f78d4147655943a385f777b448d47c9313ef1f58a778017"
+        },
+        {
+            "name": "uniform_grid_dataset.csv",
+            "category": "database",
+            "size_bytes": 394908,
+            "sha256": "7b123dce79cec23fda238f64858bea0c2fa6248bed7fd9151dd40771b7321e0d"
+        },
+        {
+            "name": "train_local_models.py",
+            "category": "models",
+            "size_bytes": 4848,
+            "sha256": "ded39c952b7797cb1e870e0a969c21e796369e7322d523c3cb91c8357d8e3597"
+        },
+        {
+            "name": "TEAM_HANDOVER_MANUAL.md",
+            "category": "documentation",
+            "size_bytes": 11764,
+            "sha256": "9a058b7d8710a2aff17db1b7cd6141034f8adba67476f29a64347b91662e7392"
+        },
+        {
+            "name": "models/fault_detection_model.pkl",
+            "category": "models",
+            "size_bytes": 893513,
+            "sha256": "23836f56e25295d7ed8ed91eb48388752f741a38762970a4643ee695116d5637"
+        },
+        {
+            "name": "models/fault_features.pkl",
+            "category": "models",
+            "size_bytes": 638,
+            "sha256": "ee9684611e740400bd52c82d7b7875c4fd030c5eb333acd72c45099aa0ea6cef"
+        },
+        {
+            "name": "models/fault_load_model.pkl",
+            "category": "models",
+            "size_bytes": 1507217,
+            "sha256": "064794627b9e209fb33d96c1665e6f9fb6b250d2d9ddb66153ffc6f435f0c6bb"
+        },
+        {
+            "name": "models/fault_severity_model.pkl",
+            "category": "models",
+            "size_bytes": 1027633,
+            "sha256": "4eb498346c39aade5fec160f969e7aa9ef2aac93bff200d50ab9fba1a96ef109"
+        },
+        {
+            "name": "models/fault_type_model.pkl",
+            "category": "models",
+            "size_bytes": 1943513,
+            "sha256": "0a658da3bfc7df2c8ce1119b25111b7f151ee5fa5122da5f70bdc4f39d783370"
+        },
+        {
+            "name": "models/forecasting_features.pkl",
+            "category": "models",
+            "size_bytes": 625,
+            "sha256": "e3fe631617d55d5db1d769f7dfc8f6582a1af189cb207305d0a6be89f4be74bb"
+        },
+        {
+            "name": "models/load_forecasting_current_model.pkl",
+            "category": "models",
+            "size_bytes": 20152433,
+            "sha256": "fa4220e067060ae3c943dd9dcae8c4894baba3ecb0337d331f6b40867663ad05"
+        },
+        {
+            "name": "models/load_forecasting_power_model.pkl",
+            "category": "models",
+            "size_bytes": 20143361,
+            "sha256": "8868d92ed05de59374e96aa9db7e969e47697cfd2e98923eaaa8b56693d2ac0e"
+        },
+        {
+            "name": "models/model_hospital.pkl",
+            "category": "models",
+            "size_bytes": 905174,
+            "sha256": "0738f9b08602747b36b4afe3cdc94388a2f35050044dafb18603faf7cbf527b9"
+        },
+        {
+            "name": "models/model_house.pkl",
+            "category": "models",
+            "size_bytes": 636618,
+            "sha256": "97bb692677bf0e87c24f2949bdaa5a8d54b644756ea0f0a905e678b3ec3d4e06"
+        },
+        {
+            "name": "models/model_industry.pkl",
+            "category": "models",
+            "size_bytes": 934502,
+            "sha256": "909f1aeb648f49b638fe1087573784918f9277710ec9036fc334a774abf192b4"
+        },
+        {
+            "name": "models/model_street.pkl",
+            "category": "models",
+            "size_bytes": 704014,
+            "sha256": "7eec1d33c028bfc36abfafc574f48effe1c9573921d39e2f4d8706b477d969b4"
+        },
+        {
+            "name": "smartgrid_closed_loop_esp32/smartgrid_closed_loop_esp32.ino",
+            "category": "firmware",
+            "size_bytes": 20500,
+            "sha256": "6e9d7b0fa98531f534532f4586ee0e4e6e96857a2b6c9c1acb26788f7a0e4a7d"
+        }
+    ]
+}

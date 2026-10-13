@@ -1,0 +1,7 @@
+{
+    "bot_token": "8948721490:AAFuwXc-P22Cqy_Br6o0xzbECSWYkOXuQcg",
+    "chat_id": "7944457244",
+    "enabled": true,
+    "send_telemetry_status": true,
+    "notes": "Telegram credentials for Smart Grid SCADA. parse_mode: HTML."
+}

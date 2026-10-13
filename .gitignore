@@ -1,0 +1,66 @@
+# ==============================================================================
+# SMART GRID AI: .gitignore
+# ==============================================================================
+
+# Secrets and Environment Variables
+.env
+.env.local
+*.env
+!*.env.example
+
+# Python Bytecode and Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Pytest Cache
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# SQLite Ephemeral & Database Files
+*.db
+*.db-wal
+*.db-shm
+*.sqlite3-journal
+
+# Third-Party Binaries & Ephemeral Logs
+cloudflared.exe
+cloudflared.log
+public_link.txt
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE & Editor Configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
